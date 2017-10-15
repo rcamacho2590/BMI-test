@@ -7,6 +7,12 @@ p.transform-cap
 p
   strong.mr-5 Email:
   = @user.email
+p
+  strong.mr-5 Height:
+  = @user.height
+p
+  strong.mr-5 Weight:
+  = @user.weight
 
 = link_to 'Edit', edit_user_path(@user), class: "btn btn-primary"
 '

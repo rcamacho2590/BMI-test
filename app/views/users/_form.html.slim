@@ -17,6 +17,16 @@
         = f.text_field :last_name, class: "form-control", required: true
 
     .form-group.row
+      = f.label :height, class: "col-md-2 control-label text-right"
+      .col-md-4
+        = f.text_field :height, class: "form-control", required: true, type: "number"
+
+    .form-group.row
+      = f.label :weight, class: "col-md-2 control-label text-right"
+      .col-md-4
+        = f.text_field :weight, class: "form-control", required: true, type: "number"
+
+    .form-group.row
       = f.label :email, class: "col-md-2 control-label text-right"
       .col-md-4
         = f.text_field :email, class: "form-control"

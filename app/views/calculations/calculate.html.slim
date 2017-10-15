@@ -1,0 +1,10 @@
+#page-wrapper
+  #page-content-wrapper
+    #page-content
+      .container
+        #page-title
+          .row
+            .col-md-12
+              h3 Your body mass index is #{@bmi_result.first}
+              h4 Your state is #{@bmi_result.last}
+              = link_to 'Back', new_bmi_path, class: "btn btn-default"
