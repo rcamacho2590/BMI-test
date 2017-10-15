@@ -1,0 +1,13 @@
+p.transform-cap
+  strong.mr-5 First Name:
+  = @user.first_name
+p.transform-cap
+  strong.mr-5 Last Name:
+  = @user.last_name
+p
+  strong.mr-5 Email:
+  = @user.email
+
+= link_to 'Edit', edit_user_path(@user), class: "btn btn-primary"
+'
+= link_to 'Back', :back, class: "btn btn-default"
