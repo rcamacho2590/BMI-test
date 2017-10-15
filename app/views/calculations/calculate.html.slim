@@ -5,6 +5,6 @@
         #page-title
           .row
             .col-md-12
-              h3 Your body mass index is #{@bmi_result.first}
-              h4 Your state is #{@bmi_result.last}
+              h3 Your body mass index is #{@result.first}
+              h4 Your state is #{@result.last}
               = link_to 'Back', new_bmi_path, class: "btn btn-default"

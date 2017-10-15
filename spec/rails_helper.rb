@@ -27,7 +27,7 @@ require 'simplecov'
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 SimpleCov.start 'rails' do
-  add_group "Services", "app/services"
+  add_group 'Services', 'app/services'
 end
 
 RSpec.configure do |config|
